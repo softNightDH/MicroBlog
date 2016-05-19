@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		653DE5C71CED7A7600CB1312 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653DE5C61CED7A7600CB1312 /* MainViewController.m */; };
+		653DE5CA1CED7CD500CB1312 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653DE5C91CED7CD500CB1312 /* BaseNavigationController.m */; };
+		653DE5CD1CED7CF900CB1312 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653DE5CC1CED7CF900CB1312 /* BaseTableViewController.m */; };
+		653DE5D01CED7D1600CB1312 /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 653DE5CF1CED7D1600CB1312 /* MainTabBar.m */; };
+		653DE5D31CED7FCA00CB1312 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653DE5D21CED7FCA00CB1312 /* HomeTableViewController.m */; };
+		653DE5D61CED7FE300CB1312 /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653DE5D51CED7FE300CB1312 /* MessageTableViewController.m */; };
+		653DE5D91CED7FEE00CB1312 /* DiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653DE5D81CED7FEE00CB1312 /* DiscoverTableViewController.m */; };
+		653DE5DC1CED7FFA00CB1312 /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653DE5DB1CED7FFA00CB1312 /* ProfileTableViewController.m */; };
 		657032DB1CEAD3DC005D6179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 657032DA1CEAD3DC005D6179 /* main.m */; };
 		657032DE1CEAD3DC005D6179 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 657032DD1CEAD3DC005D6179 /* AppDelegate.m */; };
 		657032E61CEAD3DC005D6179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657032E51CEAD3DC005D6179 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		653DE5C51CED7A7600CB1312 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		653DE5C61CED7A7600CB1312 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		653DE5C81CED7CD500CB1312 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		653DE5C91CED7CD500CB1312 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		653DE5CB1CED7CF900CB1312 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		653DE5CC1CED7CF900CB1312 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		653DE5CE1CED7D1600CB1312 /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
+		653DE5CF1CED7D1600CB1312 /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
+		653DE5D11CED7FCA00CB1312 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		653DE5D21CED7FCA00CB1312 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		653DE5D41CED7FE300CB1312 /* MessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewController.h; sourceTree = "<group>"; };
+		653DE5D51CED7FE300CB1312 /* MessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewController.m; sourceTree = "<group>"; };
+		653DE5D71CED7FEE00CB1312 /* DiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverTableViewController.h; sourceTree = "<group>"; };
+		653DE5D81CED7FEE00CB1312 /* DiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverTableViewController.m; sourceTree = "<group>"; };
+		653DE5DA1CED7FFA00CB1312 /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewController.h; sourceTree = "<group>"; };
+		653DE5DB1CED7FFA00CB1312 /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
 		657032D61CEAD3DB005D6179 /* DHMicroBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHMicroBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		657032DA1CEAD3DC005D6179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		657032DC1CEAD3DC005D6179 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +75,7 @@
 		657032D81CEAD3DB005D6179 /* DHMicroBlog */ = {
 			isa = PBXGroup;
 			children = (
+				657032F01CEADA18005D6179 /* Module */,
 				657032DC1CEAD3DC005D6179 /* AppDelegate.h */,
 				657032DD1CEAD3DC005D6179 /* AppDelegate.m */,
 				657032E51CEAD3DC005D6179 /* Assets.xcassets */,
@@ -66,6 +91,69 @@
 				657032DA1CEAD3DC005D6179 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		657032F01CEADA18005D6179 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				657032F31CEADA18005D6179 /* Main */,
+				657032F21CEADA18005D6179 /* Home */,
+				657032F41CEADA18005D6179 /* Message */,
+				657032F11CEADA18005D6179 /* Discover */,
+				657032F51CEADA18005D6179 /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		657032F11CEADA18005D6179 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				653DE5D71CED7FEE00CB1312 /* DiscoverTableViewController.h */,
+				653DE5D81CED7FEE00CB1312 /* DiscoverTableViewController.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		657032F21CEADA18005D6179 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				653DE5D11CED7FCA00CB1312 /* HomeTableViewController.h */,
+				653DE5D21CED7FCA00CB1312 /* HomeTableViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		657032F31CEADA18005D6179 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				653DE5C51CED7A7600CB1312 /* MainViewController.h */,
+				653DE5C61CED7A7600CB1312 /* MainViewController.m */,
+				653DE5C81CED7CD500CB1312 /* BaseNavigationController.h */,
+				653DE5C91CED7CD500CB1312 /* BaseNavigationController.m */,
+				653DE5CB1CED7CF900CB1312 /* BaseTableViewController.h */,
+				653DE5CC1CED7CF900CB1312 /* BaseTableViewController.m */,
+				653DE5CE1CED7D1600CB1312 /* MainTabBar.h */,
+				653DE5CF1CED7D1600CB1312 /* MainTabBar.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		657032F41CEADA18005D6179 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				653DE5D41CED7FE300CB1312 /* MessageTableViewController.h */,
+				653DE5D51CED7FE300CB1312 /* MessageTableViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		657032F51CEADA18005D6179 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				653DE5DA1CED7FFA00CB1312 /* ProfileTableViewController.h */,
+				653DE5DB1CED7FFA00CB1312 /* ProfileTableViewController.m */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +224,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653DE5CA1CED7CD500CB1312 /* BaseNavigationController.m in Sources */,
 				657032DE1CEAD3DC005D6179 /* AppDelegate.m in Sources */,
+				653DE5D01CED7D1600CB1312 /* MainTabBar.m in Sources */,
+				653DE5DC1CED7FFA00CB1312 /* ProfileTableViewController.m in Sources */,
+				653DE5D91CED7FEE00CB1312 /* DiscoverTableViewController.m in Sources */,
+				653DE5D61CED7FE300CB1312 /* MessageTableViewController.m in Sources */,
+				653DE5D31CED7FCA00CB1312 /* HomeTableViewController.m in Sources */,
+				653DE5C71CED7A7600CB1312 /* MainViewController.m in Sources */,
 				657032DB1CEAD3DC005D6179 /* main.m in Sources */,
+				653DE5CD1CED7CF900CB1312 /* BaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +367,7 @@
 				657032EF1CEAD3DC005D6179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
